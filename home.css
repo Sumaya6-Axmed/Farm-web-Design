@@ -1,0 +1,441 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px  40px;
+    align-items: center;
+}
+.name{
+  display: flex;
+}
+.name, i{
+    font-size: 1.5em;
+    color: green;
+    padding-top: 20px;
+    
+}
+.name h1{
+    font-size: 1em;
+    text-shadow: 3px 3px 15px rgb(180, 243, 194);
+    padding-bottom: 40px;
+}
+.header a{
+    color: inherit;
+    text-decoration: transparent;
+    font-size: 1em;
+}
+.btn-header{
+    display: flex;
+    gap: 10px;
+}
+.log-in{
+    background-color: transparent;
+    padding: 10px 40px;
+    color: rgb(249, 247, 247);
+    font-size: 1em;
+    border: none ;
+    background-color:   rgb(5, 90, 34);
+    
+}
+.sign-up{
+    background-color: transparent;
+    border: 1px solid green;
+    padding: 10px 40px;
+    color: green;
+    box-shadow: 3px 3px 10px rgb(41, 67, 2);
+
+}
+main{
+    padding-top: 50px;
+}
+.home-page{
+    height:500px;
+    background: url(Rectangle\ 4.png);
+    background-size: cover;
+    filter: brightness(80%);
+}
+main h1{
+    width: 600px;
+    font-size: 3.3em;
+    color: white;
+}
+main p{
+    color: white;
+    padding-top: 20px;
+    width: 700px;
+}
+.btn-main{
+    padding: 50px 90px;
+    
+    
+}
+.btn-main .sign-up{
+    color: white;
+    margin-left: 20px;
+}
+
+/* ABOUT US STYLE */
+.about{
+    display: flex;
+}
+.abt{
+    text-align: center;
+    padding: 50px 60px;
+
+}
+.abt h1{
+    font-size: 2.3em;
+    width: 230px;
+    color: rgb(5, 67, 5);
+    padding-left: 100px;
+}
+/* .abt p{
+    width: 700px;
+} */
+.get-start{
+    background-color: transparent;
+    padding: 10px 40px;
+    color: rgb(249, 247, 247);
+    font-size: 1em;
+    border: none ;
+    background-color:   rgb(5, 90, 34);
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-right: 200px;
+}
+.img img{
+    height: 500px;
+    /* position: relative; */
+}
+/* img{
+    position: relative;
+} */
+.year p{
+    background-color: whitesmoke;
+    color: green;
+    width: 150px;
+    height: 40px;
+    font-size: 1.5em;
+    border-radius: 18px;
+    padding-left: 20px;
+    /* position: absolute;
+    bottom: 10px; */
+   
+}
+/* .year p{
+    padding-left: 20px;
+     position: absolute;
+     top: 20px;
+} */
+/* abou cont style... */
+
+
+.abt-head{
+    text-align: center;
+    padding: 20px 40px;
+    background-color: whitesmoke;
+}
+.abt-head h1{
+    font-size: 2.5em;
+    color: rgb(3, 57, 3);
+    padding-bottom: 20px;
+}
+/* about cont... */
+.our-Features{
+   display: flex;
+   background-color: whitesmoke;
+   gap: 40px;
+   padding-left: 50px;
+}
+/* .our-Features img{
+    height: 500px;
+    width: 30px;
+} */
+.our-Features h1{
+    font-size: 2em;
+    color: rgb(4, 91, 4);
+    
+}
+.our-Features p{
+    width: 300px;
+    padding-top: 10px;
+}
+.a{
+    padding-top: 20px;
+    color: green;
+}
+a{
+    color: green;
+}
+
+.grid-container{
+    padding-top: 20px;
+    height: 600px;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 50px 50px 50px 50px;
+    /* gap: 60px; */
+    justify-content: space-around;
+    /* grid-row: 20px;
+    column-gap: 60px; */
+    /* align-items: center; */
+    padding-top: 50px;
+}
+.box{
+    width: 250px;
+    height: 450px;
+    background-color: white;
+    padding-top: 30px;
+    border: 1px solid rgb(44, 44, 43);
+    border-radius: 18px;
+    text-align: center;
+    /* font-size: 20px; */
+    /* box-shadow: 1px 1px; */
+}
+.box img{
+    border-radius: 30px;
+    width: 200px;
+
+
+}
+.box p{
+    /* text-align: center; */
+    width: 200px;
+    padding-left: 30px;
+}
+.box p, h1{
+    padding-top: 20px;
+}
+
+.link{
+    margin-top: 500px;
+    inline-size: 200px;
+    margin-left: 500px;
+}
+.link a{
+     /* text-decoration:none; */
+     color: green;
+
+}
+
+/* OUR SERVICES STYLE... */
+
+
+.gr-container{
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 200px  200px 200px 200px;
+    grid-template-rows: 50px 50px 50px 50px;
+      justify-content: space-around; 
+      gap: 20px;
+     align-items: start;
+     padding-left: 200px;
+}
+.service-header{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.service-header h2{
+    color: rgb(5, 83, 5);
+    font-size: 2em;
+    /* padding-left: 500px; */
+    /* padding-right: 100px; */
+    /* padding-bottom: 30px; */
+}
+.service-header p{
+    width: 500px;
+    padding-left: 390px;
+    padding-top: 20px;
+}
+
+.SR{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(203, 249, 213);
+    margin-top: 40px;
+    border: 1px solid rgb(44, 44, 43);
+    border-radius: 25px;
+    text-align: center;
+    margin-right: 100px;
+}
+.SR i{
+    font-size: 2.5em;
+    color: black;
+}
+.SR p{
+    padding-top: 20px;
+    font-size: 1.5em;
+}
+
+/* service style cont... */
+
+.box-container{
+    display: flex;
+    padding-left: 40px;
+}
+.box-container h1{
+    width: 300px;
+    font-size: 2.5em;
+    color: rgb(45, 79, 59);
+}
+.texts p{
+    padding-top: 20px;
+    width: 600px;
+}
+.blog{
+    background-color: rgb(45, 79, 59);
+    /* display: flex; */
+    width: 400px;
+    height: 500px;
+    margin-left: 60px;
+    border-radius: 10px;
+    /* text-align: center; */
+    /* padding-top: 20px; */
+}
+.ic-text{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.ic-text img{
+    padding-top: 20px;
+    height: 50px;
+    width: 50px;
+}
+.ic-text h1{
+    padding-left: 40px;
+    font-size: 2em;
+    color: white;
+    /* margin-left: 20px; */
+}
+.blog p{
+    padding-left: 140px;
+    color: white;
+}
+.btn-icon{
+    background-color: transparent; 
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.btn-icon i{
+    color: white;
+    font-size: 1em;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.learn{
+    font-size: 2em;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    /* padding-bottom: 50px; */
+    /* padding: 10px 40px; */
+    color: rgb(249, 247, 247);
+    font-size: 1em;
+    border: none ;
+    background-color:   rgb(45, 79, 59);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px  black;
+}
+
+/* OTHER  PAGE STYLE... */
+
+.testimonials{
+    padding-top: 40px;
+    align-items: center;
+}
+.testimonials h1{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(45, 79, 59) ;
+}
+.testimonials p{
+    text-align: center;
+    width: 600px;
+    padding-left: 300px;
+}
+
+.box-rate{
+    padding-top: 40px;
+    display: flex;
+    background-color: rgb(66, 109, 84);
+    width: 900px;
+    height: 300px;
+    align-items: center;
+    border-radius: 15px;
+    margin-left: 200px;
+}
+.box-rate img{
+    padding-left: 90px;
+    width: 250px;
+    height:250px;
+}
+.star{
+    padding-left: 50px;
+    
+}
+.star img{
+    margin-right: 100px;
+    width: 50px;
+    height: 50px;
+}
+.star p{
+    padding-top: 20px;
+    width: 400px;
+}
+.star h5{
+    padding-top: 20px;
+    color: gray;
+}
+span{
+    font-size: 1.5em;
+    color: yellow;
+}
+
+/* FOOTER STYLE... */
+
+footer .F-Header{
+    display: flex;
+    background-color: rgb(45, 79, 59) ;
+    height: 250px;
+    padding-left: 40px;
+}
+.F-Header h3{
+    padding-top: 20px;
+    color: white;
+    font-size: 1.5em;
+}
+.F-Header p{
+    width: 400px;
+    padding-top: 20px;
+    color: white;
+}
+.F-box{
+    display: flex;
+    margin-left: 400px;
+    gap: 35px;
+}
+.F-box h3{
+    padding-top: 40px;
+    color: white;
+}
+.F-box ul li{
+    color: white;
+    padding-top: 10px;
+    list-style: none;    
+}
+
+.Platforms img{
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    padding-left: 20px;
+}
